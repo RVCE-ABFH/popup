@@ -1,0 +1,109 @@
+#popWindow{
+			width: 75%;
+			height:75%;
+			border:15px solid #bd135b;
+		}
+		.popbg{
+			display: block;
+			position: fixed;
+			background: rgba(255, 255, 255, 0.9);
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			overflow: auto;
+			display: none;
+		}
+		p{
+			display:flex;
+		}
+		.popup{
+			display: block;
+			position: fixed;
+			width: 500px;
+			left: 30%;
+			top: 35%;
+			background: #fff;
+			display: none;
+		}
+		.pop-shadow{
+			/*-webkit-box-shadow: 0 0 40px rgba(0,0,0,.4);*/
+			/*box-shadow: 0 0 40px rgba(0,0,0,.4);*/
+			background: #fff;
+			background-clip: padding-box;
+			border: 100px solid #bd135b;
+			border: rgba(0,0,0,0);
+			outline: 0;
+		}
+		.pop-header{
+			background: #bd135b;
+			border: #bd135b solid 1px;
+			position: relative;
+			display: block;
+			margin-top: 30px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-bottom: 0px;
+		}
+		.pop-header:after{
+			clear:both;
+			height: 0px;
+			display:block;
+			content: "";
+		}
+		.left{
+			float: left;
+		}
+		.right{
+			float:right;
+		}
+		.pop-title{
+			display: block;
+			padding: 10px;
+			font-weight: bold;
+			font-family: 'Roboto', sans-serif;
+		}
+		.pop-control{
+			
+			display: flex;
+  			justify-content: center;
+            align-items: center;
+			padding: 5px;
+			margin-top: 0px;
+		}
+		.pop-close{
+			display: block;
+			font-weight: bold;
+			font-family: arial;
+			cursor: pointer;
+			display: inline-block;
+			color: #000;
+			font-size: 14px;
+		}
+		.pop-close:hover{
+			color: #444;
+		}
+		#divModalInstruction {
+   		max-width:  90rem;
+  		max-height: 20rem;
+  		font-size: 1rem;
+   		 border: 1px solid #bd135b;
+   		 margin-top:10px;
+   		 margin-bottom: 0px;
+   		 margin-right: 30px;
+   		 margin-left: 30px;
+   		 overflow: scroll;
+   		 position: relative;}
+		.main-content{
+			font-family: 'Roboto', sans-serif;
+			 display: flex;
+   			 align-items: center;
+   			 justify-content: center;
+    		
+		}
+		.main-content h1{
+			font-size: 28px;
+		}
+		.main-content p{
+			font-size: 16px;
+		}
